@@ -1,0 +1,22 @@
+<!DOCTYPE sigmod [
+        <!ELEMENT sigmod (id)*>
+        <!ELEMENT id (ild|customer_id|total_price|items|product_id|brand)*>
+        <!ELEMENT ild (#PCDATA)>
+        <!ELEMENT customer_id (#PCDATA)>
+        <!ELEMENT total_price (#PCDATA)>
+        <!ELEMENT items (#PCDATA)>
+        <!ELEMENT product_id (#PCDATA)>
+        <!ELEMENT brand (#PCDATA)>
+        ]>
+<sigmod>
+<id>
+<ild>1</ild>
+<customer_id>33</customer_id>
+<total_price>135</total_price>
+<items></items>
+<product_id>85</product_id>
+<brand>Nike</brand>
+<product_id>86</product_id>
+<brand>Adidas</brand>
+</id>
+</sigmod>
